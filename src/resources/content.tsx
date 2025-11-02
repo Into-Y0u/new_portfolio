@@ -99,9 +99,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Arghya is A passionate Backend Developer immersed in crafting seamless APIs, fortifying databases, and orchestrating server-end operations within the dynamic realm of Zoho Video Platform. With over a year of hands-on experience, I've honed my skills in cloud technologies and front-end development, creating a comprehensive skill set primed to tackle diverse challenges.
+        My aspiration is to channel my knowledge and expertise into an SDE role, leveraging my prowess in backend development, cloud proficiency, and front-end finesse to drive impactful solutions.
       </>
     ),
   },
@@ -134,9 +133,9 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Congnizant",
+        timeframe: "February 2022 - May 2022",
+        role: "Programming Analyst Trainee Intern",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -156,11 +155,11 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Maulana Abul Kalam Azad University of Technology, India",
+        description: <>Bachelor of Technology on Electrical Engineering</>,
       },
       {
-        name: "Build the Future",
+        name: "2018 - 2022",
         description: <>Studied online marketing and personal branding.</>,
       },
     ],
