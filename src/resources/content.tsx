@@ -7,7 +7,7 @@ const person: Person = {
   name: `Arghyadev Sarkar`,
   role: "Backend Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "7arghyadev@gmail.com",
   location: "Asia/Calcutta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Hindi", "Bengali"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -65,14 +65,14 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      {/* I'm Selene, a design engineer at{" "}
       <Logo
         dark
         icon="/trademarks/wordmark-dark.svg"
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
       />
       , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      <br /> user experiences. After hours, I build my own projects. */}
     </>
   ),
 };
@@ -122,15 +122,15 @@ const about: About = {
             iterate 50% faster.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // images: [
+        //   // optional: leave the array empty if you don't want to display images
+        //   {
+        //     src: "/images/projects/project-01/cover-01.jpg",
+        //     alt: "Once UI Project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
       {
         company: "Congnizant",
@@ -169,10 +169,11 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Core Skills",
         description: (
           <>Able to prototype in Figma with Once UI with unnatural speed.</>
         ),
+        // add more core skills
         tags: [
           {
             name: "Figma",
@@ -212,6 +213,10 @@ const about: About = {
           {
             name: "Supabase",
             icon: "supabase",
+          },
+          {
+            name: "FastAPI",
+            icon: "fastapi",
           },
         ],
         // optional: leave the array empty if you don't want to display images
