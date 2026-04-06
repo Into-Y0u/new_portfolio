@@ -22,7 +22,6 @@ export async function generateMetadata() {
     title: about.title,
     description: about.description,
     baseURL: baseURL,
-    image: `/api/og/generate?title=${encodeURIComponent(about.title)}`,
     path: about.path,
   });
 }
@@ -58,7 +57,6 @@ export default function About() {
         title={about.title}
         description={about.description}
         path={about.path}
-        image={`/api/og/generate?title=${encodeURIComponent(about.title)}`}
         author={{
           name: person.name,
           url: `${baseURL}${about.path}`,
@@ -232,7 +230,7 @@ export default function About() {
                         ),
                       )}
                     </Column>
-                    {experience.images && experience.images.length > 0 && (
+                    {/* {experience.images && experience.images.length > 0 && (
                       <Row fillWidth paddingTop="m" paddingLeft="40" gap="12" wrap>
                         {experience.images.map((image, index) => (
                           <Row
@@ -252,7 +250,7 @@ export default function About() {
                           </Row>
                         ))}
                       </Row>
-                    )}
+                    )} */}
                   </Column>
                 ))}
               </Column>
@@ -295,9 +293,9 @@ export default function About() {
                     <Text id={skill.title} variant="heading-strong-l">
                       {skill.title}
                     </Text>
-                    <Text variant="body-default-m" onBackground="neutral-weak">
+                    {/* <Text variant="body-default-m" onBackground="neutral-weak">
                       {skill.description}
-                    </Text>
+                    </Text> */}
                     {skill.tags && skill.tags.length > 0 && (
                       <Row wrap gap="8" paddingTop="8">
                         {skill.tags.map((tag, tagIndex) => (
@@ -307,7 +305,7 @@ export default function About() {
                         ))}
                       </Row>
                     )}
-                    {skill.images && skill.images.length > 0 && (
+                    {/* {skill.images && skill.images.length > 0 && (
                       <Row fillWidth paddingTop="m" gap="12" wrap>
                         {skill.images.map((image, index) => (
                           <Row
@@ -327,7 +325,7 @@ export default function About() {
                           </Row>
                         ))}
                       </Row>
-                    )}
+                    )} */}
                   </Column>
                 ))}
               </Column>
